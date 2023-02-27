@@ -12,6 +12,28 @@ select {
   margin: 0.5em;
 }
 
+input {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5em;
+}
+
+button {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5em;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #8b8b8b;
+}
+
 .calculator {
   display: flex;
   flex-direction: row;
